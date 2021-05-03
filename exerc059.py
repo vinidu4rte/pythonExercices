@@ -26,6 +26,8 @@ while choice != 5:
     if choice == 4:
         n1 = int(input("Digite um número inteiro: "))
         n2 = int(input("Digite mais um número inteiro: "))
+    else:
+        print("Comando inválido, tente novamente!")
 
     choice = int(input("Escolha do menu: "))
 

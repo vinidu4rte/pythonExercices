@@ -5,11 +5,9 @@ r = int(input("Digite a razão da PA: "))
 termos = 10
 an = a1
 
-
-print("Os 10 primeiros termos da PA são: {}" .format(a1))
+print("Os 10 primeiros termos da PA são: {}" .format(a1) ,end=' ')
 
 while termos != 1:
     an = an + r
     termos -= 1
-    print("Os 10 primeiros termos da PA são:",end=' ')
-    print(an)
+    print(an, end=' ')
